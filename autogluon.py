@@ -47,4 +47,4 @@ if __name__ == '__main__':
        # '간 효소율'
     ]
     train_cols = test_cols + ['label']
-    run(train_cols=train_cols, test_cols=test_cols, save_results=False)
+    run(train_cols=train_cols, test_cols=test_cols, save_results=True)
